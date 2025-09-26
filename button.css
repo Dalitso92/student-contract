@@ -1,0 +1,39 @@
+.btn{
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+
+}
+
+.btn ul{
+	list-style: none;
+}
+
+.btn ul li {
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	height: 70px;
+	border-radius: 4px;
+}
+
+.btn ul li a{
+	text-decoration: none;
+}
+
+.btn ul li a button{
+	height: 40px;
+	width: 300px;
+	color: white;
+	background: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	transition: ease-in-out 0.2s;
+	
+
+}
+
+.btn ul li a button:hover{
+	color: black;
+	background: white;
+}
